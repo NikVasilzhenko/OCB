@@ -115,7 +115,7 @@ $(document).ready(function(){
   //detail gallery
   let galleryCarusel = new Swiper('#js-desc-gallery-carusel', {
     spaceBetween: 17,
-    slidesPerView: 3,
+    slidesPerView: 4,
     watchSlidesProgress: true,
   });
   let gallerySlider = new Swiper('#js-desc-gallery-slider', {

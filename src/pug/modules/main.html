@@ -113,7 +113,7 @@
           <div class="catalog-item__header active">В НАЛИЧИИ</div>
           <figure class="catalog-item__main">
             <figcaption class="catalog-item__caption">
-              <h3 class="catalog-item__title">Печь РАКИТА <sub>10 кВт</sub></h3>
+              <h3 class="catalog-item__title"><span>Печь РАКИТА</span> <sub>10 кВт</sub></h3>
             </figcaption>
             <div class="catalog-item__pic">
               <img src="img/pic/item-1-min.jpg" alt="">
@@ -122,17 +122,17 @@
               КПД ХХ% <br>ХХ0 м.куб - для помещений до 60м2 <br>Жаростойкая эмаль <br>Закладка 20 кг<br> До 1,5 часов на одной закладке <br><b>Рассрочка</b>
             </div>
             <div class="catalog-item__bar">
+              <button class="btn catalog-item__more js-item-more">
+                <span>Подробнее</span>
+                <i><img src="img/svg/more.svg" alt=""></i>
+              </button>
               <div class="styled-select catalog-item__select js-styled-select">
                 <select name="categorys">
                   <option value="Базовая">Базовая</option>
                   <option value="Базовая">Базовая</option>
                   <option value="Базовая">Базовая</option>
                 </select>
-              </div>
-              <button class="btn catalog-item__more js-item-more">
-                <span>Подробнее</span>
-                <i><img src="img/svg/more.svg" alt=""></i>
-              </button>
+              </div>              
             </div>
             <div class="catalog-item__prices">
               <div class="catalog-item__price">30 000 р</div>
@@ -144,7 +144,7 @@
           <div class="catalog-item__header">МАЛО НА СКЛАДЕ</div>
           <figure class="catalog-item__main">
             <figcaption class="catalog-item__caption">
-              <h3 class="catalog-item__title">Печь РАКИТА <sub>20 кВт</sub></h3>
+              <h3 class="catalog-item__title"><span>Печь РАКИТА</span> <sub>20 кВт</sub></h3>
             </figcaption>
             <div class="catalog-item__pic">
               <img src="img/pic/item-1-min.jpg" alt="">
@@ -153,17 +153,17 @@
               КПД 70% <br>140 м.куб - для помещений до 60м2 <br>Керамика <br>Закладка 20 кг <br>До 1,5 часов на одной закладке <br><b>Рассрочка</b>
             </div>
             <div class="catalog-item__bar">
+              <button class="btn catalog-item__more js-item-more">
+                <span>Подробнее</span>
+                <i><img src="img/svg/more.svg" alt=""></i>
+              </button>
               <div class="styled-select catalog-item__select js-styled-select">
                 <select name="categorys">
                   <option value="Базовая">Базовая</option>
                   <option value="Базовая">Базовая</option>
                   <option value="Базовая">Базовая</option>
                 </select>
-              </div>
-              <button class="btn catalog-item__more js-item-more">
-                <span>Подробнее</span>
-                <i><img src="img/svg/more.svg" alt=""></i>
-              </button>
+              </div>              
             </div>
             <div class="catalog-item__prices">
               <div class="catalog-item__price">30 000 р</div>
@@ -175,7 +175,7 @@
           <div class="catalog-item__header">МАЛО НА СКЛАДЕ</div>
           <figure class="catalog-item__main">
             <figcaption class="catalog-item__caption">
-              <h3 class="catalog-item__title">Котел РАКИТА <sub>20 кВт</sub></h3>
+              <h3 class="catalog-item__title"><span>Котел РАКИТА</span> <sub>20 кВт</sub></h3>
             </figcaption>
             <div class="catalog-item__pic">
               <img src="img/pic/item-2-min.jpg" alt="">
@@ -211,10 +211,10 @@
         <h2 class="sec-title">Печи и котлы <span>от производителя</span></h2>
         <div class="about__wrap">
           <figure class="about__video">
-            <a data-rel="media" data-fancybox="" href="https://youtu.be/crGNVtAMH7c"  class="about__video-link js-zoom">
+            <a data-rel="media" data-fancybox="" href="https://youtu.be/uOHf3T7iAlQ"  class="about__video-link js-zoom">
               <img src="img/pic/video-min.jpg" alt="">
             </a>
-            <figcaption class="about__video-figcaption">Посмотрите видео - ролик о нашем производстве. <br>Больше видео о нас смотрите на нашем <a href="#" target="_blank">Youtube - канале</a></figcaption>
+            <figcaption class="about__video-figcaption">Посмотрите видео - ролик о нашем производстве. <br>Больше видео о нас смотрите на нашем <a href="https://www.youtube.com/channel/UC4WHxaNf5ckEIa9HMhgXpQA" target="_blank">Youtube - канале</a></figcaption>
           </figure>
           <div class="about__content">
             <div class="about__txt">
@@ -656,7 +656,8 @@
           <button class="btn detail__close js-detail-close" title="Закрыть"><img src="img/svg/close.svg" alt=""></button>
           <div class="desc-sec__row">            
             <div class="desc-gallery">
-               <div class="swiper carusel desc-gallery-slider" id="js-desc-gallery-slider">
+              <div class="desc-gallery__category active">В НАЛИЧИИ</div>
+              <div class="swiper carusel desc-gallery-slider" id="js-desc-gallery-slider">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
                     <div class="desc-gallery-slide">
@@ -700,7 +701,7 @@
                   </svg>
                 </div>                
               </div>
-              <div thumbsSlider="" class="swiper desc-gallery-slider" id="js-desc-gallery-carusel">
+              <div thumbsSlider="" class="swiper desc-gallery-carusel" id="js-desc-gallery-carusel">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
                     <div class="desc-gallery-slide">
@@ -736,8 +737,10 @@
               </div>
             </div>
             <div class="desc-content">
-              <h2 class="sec-title">Печь Ракита</h2>
-              <div class="desc-content__sub">20 кВт базовая</div>
+              <div class="desc-content__header">
+                <h2 class="sec-title">Печь Ракита</h2>
+                <div class="desc-content__sub">20 кВт базовая</div>
+              </div>
               <div class="desc-content__subtitle">Основные характеристики:</div>
               <div class="desc-content__row">
                 <div class="desc-content__tab-col">
@@ -803,7 +806,7 @@
               </div>
               <div class="desc-content__bar">
                 <button class="btn btn--primery desc-content__btn">Купить</button>
-                <button class="btn btn--secondary desc-content__btn">Купить от 2500 р/мес</button>
+                <button class="btn btn--secondary-orange desc-content__btn">Купить&nbsp;<span>от 2500 р/мес</span></button>
               </div>
               <div class="desc-content__deliverys">
                 <div class="desc-content__delivery">
@@ -813,7 +816,7 @@
                 <div class="desc-content__delivery">
                   <i><img src="img/svg/box.svg" alt=""></i>
                   <span>
-                    Самовывоз из Краснодара завтра <b>БЕСПЛАТНО</b>
+                    Самовывоз из Краснодара <br>завтра <b>БЕСПЛАТНО</b>
                     <div class="hint">
                       <i><img src="img/svg/info-orange.svg" alt=""></i>
                       <div class="hint__hide hint__hide--bottom">
@@ -824,6 +827,13 @@
                   </span>
                 </div>
               </div>
+            </div>
+          </div>
+          <div class="desc-sec-action">
+            <div class="desc-sec-action__wrpa">
+              <div class="desc-sec-action__pic"><img src="img/pic/fuel-min.png" alt=""></div>
+              <div class="desc-sec-action__name">акция</div>
+              <div class="desc-sec-action__txt">При заказе печи/котла скажите слово "дрова" и получите вязанку дров в подарок</div>
             </div>
           </div>
         </div>
